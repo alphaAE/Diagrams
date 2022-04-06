@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-06T01:57:38.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="_POgyggXknjzjF4QT3Q4" version="17.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-06T02:06:07.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29" etag="psnZzFTcDlLXIWUCwXwj" version="17.3.0" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1221" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -36,6 +36,39 @@
         </mxCell>
         <mxCell id="ZfTb3w4SBTIdW1wGuKT9-51" value="上传接口&lt;br&gt;查询当前用户待提交接口&lt;br&gt;修改当前用户待提交接口&lt;br&gt;删除当前用户待提交接口&lt;br&gt;提交接口&lt;br&gt;查询当前用户被驳回接口&lt;br&gt;修改当前用户被驳回接口&lt;br&gt;提交被驳回接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="330" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZfTb3w4SBTIdW1wGuKT9-52" target="ZfTb3w4SBTIdW1wGuKT9-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZfTb3w4SBTIdW1wGuKT9-52" target="ZfTb3w4SBTIdW1wGuKT9-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-52" value="收款认领" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-53" value="待认领" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-55" value="已认领" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-57" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfTb3w4SBTIdW1wGuKT9-53" target="ZfTb3w4SBTIdW1wGuKT9-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="430" as="sourcePoint" />
+            <mxPoint x="690" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-58" value="查询待认领接口（筛选，分页）&lt;br&gt;认领接口&lt;br&gt;驳回接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-59" value="查询认领完成接口（筛选，分页）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="330" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZfTb3w4SBTIdW1wGuKT9-61" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZfTb3w4SBTIdW1wGuKT9-55" target="ZfTb3w4SBTIdW1wGuKT9-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="370" as="sourcePoint" />
+            <mxPoint x="1030" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
