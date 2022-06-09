@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T08:47:57.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="-USjCP_yEv2xfeJI1vvB" version="18.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T08:48:19.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="bYwkvr48cYh7-UYmKCcz" version="18.0.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,9 +90,6 @@
         </mxCell>
         <mxCell id="ncPMUlyyr94SvJH-5i3p-35" value="数据&lt;br&gt;pendingTableData&lt;br&gt;待提交列表数据" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=default;size=10;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-22">
           <mxGeometry x="40" y="40" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-36" value="数据&lt;br&gt;noPassTableData&lt;br&gt;被驳回列表数据" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=10;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-22">
-          <mxGeometry x="240" y="40" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
