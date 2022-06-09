@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T08:54:00.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="jDDsgVHjF7o35956mAvD" version="18.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T09:02:15.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.33" etag="IveE8YSrll8yiZ-CIZtt" version="18.0.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,31 +61,31 @@
         <mxCell id="ncPMUlyyr94SvJH-5i3p-25" value="组件&#xa;PaymentPendingList&#xa;用于处理待认领列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-22">
           <mxGeometry x="260" y="140" width="190" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-26" value="tableData&#xa;展示的数据源" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-26" value="isMobile&#xa;是否为手机设备" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
           <mxGeometry y="50" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-27" value="onSubmit&#xa;处理提交当前列表数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-27" value="tableResult&#xa;数据源" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
           <mxGeometry y="80" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-28" value="onDelete&#xa;处理删除当前列表某一数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-28" value="pageData&#xa;分页信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
           <mxGeometry y="110" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-29" value="onEditData&#xa;处理编辑当前列表某一数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-29" value="onUpdate&#xa;更新当前列表回调" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-25">
           <mxGeometry y="140" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ncPMUlyyr94SvJH-5i3p-30" value="组件&#xa;PaymentPassList&#xa;用于处理已认领列表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-22">
           <mxGeometry x="480" y="140" width="190" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-31" value="tableData&#xa;展示的数据源" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-31" value="isMobile&#xa;是否为手机设备" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
           <mxGeometry y="50" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-32" value="onSubmit&#xa;处理提交当前列表数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-32" value="tableResult&#xa;数据源" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
           <mxGeometry y="80" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-33" value="onDelete&#xa;处理删除当前列表某一数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-33" value="pageData&#xa;分页信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
           <mxGeometry y="110" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ncPMUlyyr94SvJH-5i3p-34" value="onEditData&#xa;处理编辑当前列表某一数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
+        <mxCell id="ncPMUlyyr94SvJH-5i3p-34" value="onUpdate&#xa;更新当前列表回调" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-30">
           <mxGeometry y="140" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ncPMUlyyr94SvJH-5i3p-35" value="数据&lt;br&gt;pendingTableData&lt;br&gt;待提交列表数据" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=default;size=10;" vertex="1" parent="ncPMUlyyr94SvJH-5i3p-22">
